@@ -6,8 +6,15 @@ ApplicationWindow {
     width: 640
     height: 480
     title: qsTr("ZZZ frame")
-    Zzz {
+    Column {
         anchors.top: parent.top
         anchors.left: parent.left
+
+        Zzz {
+        }
+        Ready {
+        }
+        ReadyNarrow {
+        }
     }
 }

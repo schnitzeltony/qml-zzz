@@ -3,7 +3,6 @@ import QtQuick.Controls 2.14
 import QtQuick.Controls.Material 2.14
 
 Rectangle  {
-    visible: true
     width: 200
     height: 100
     Material.theme: Material.Dark
@@ -47,7 +46,7 @@ Rectangle  {
         }
         SequentialAnimation on animationValue {
             running: waitAnimantion.visible
-            //loops: Animation.Infinite
+            loops: Animation.Infinite
             NumberAnimation {
                 from: 0
                 to: 0.5
