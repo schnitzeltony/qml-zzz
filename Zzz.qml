@@ -3,7 +3,6 @@ import QtQuick.Controls 2.14
 import QtQuick.Controls.Material 2.14
 
 Rectangle  {
-    property string test
     visible: true
     width: 200
     height: 100

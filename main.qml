@@ -7,8 +7,7 @@ ApplicationWindow {
     height: 480
     title: qsTr("ZZZ frame")
     Zzz {
-        id: zzz
         anchors.top: parent.top
-        anchors.left: par.left
+        anchors.left: parent.left
     }
 }
